@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lav&iacute;nia | Cartas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="cartas">
+    <header class="site-header">
+      <a class="brand" href="index.html">Lav&iacute;nia</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-modal" id="site-menu" hidden>
+        <div class="nav-backdrop" data-close-menu></div>
+        <nav class="nav" aria-label="Navega&ccedil;&atilde;o principal">
+          <button class="menu-close" type="button" aria-label="Fechar menu" data-close-menu>&times;</button>
+          <a href="index.html" data-page="home">Home</a>
+          <a href="fotos.html" data-page="fotos">Fotos</a>
+          <a href="cartas.html" data-page="cartas">Cartas</a>
+          <a href="admiro.html" data-page="admiro">Traços</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-section letters">
+        <div class="float sparkle three">&#10022;</div>
+        <div class="float heart two">&hearts;</div>
+        <div class="float bubble five"></div>
+        <div class="section-title">
+          <p>Cartas</p>
+          <h2>Coisas que gosto que ouça</h2>
+        </div>
+
+        <div class="letters-list" id="letters-list" aria-label="Cartas para abrir"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lav&iacute;nia | Coisas que admiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="admiro">
+    <header class="site-header">
+      <a class="brand" href="index.html">Lav&iacute;nia</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-modal" id="site-menu" hidden>
+        <div class="nav-backdrop" data-close-menu></div>
+        <nav class="nav" aria-label="Navega&ccedil;&atilde;o principal">
+          <button class="menu-close" type="button" aria-label="Fechar menu" data-close-menu>&times;</button>
+          <a href="index.html" data-page="home">Home</a>
+          <a href="fotos.html" data-page="fotos">Fotos</a>
+          <a href="cartas.html" data-page="cartas">Cartas</a>
+          <a href="admiro.html" data-page="admiro">Traços</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-section admire">
+        <div class="float sparkle three">&#10022;</div>
+        <div class="float bubble four"></div>
+        <div class="section-title">
+          <p>Coisas em você que eu mais gosto</p>
+        </div>
+
+        <section class="admire-picker" aria-live="polite">
+          <div class="admire-card" id="admire-card">
+            <h3 id="admire-title">SEU SORRISO (!!!!!!)</h3>
+          </div>
+
+          <button class="admire-button" id="admire-button" type="button">
+            Sortear!
+          </button>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

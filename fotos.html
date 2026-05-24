@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lav&iacute;nia | Fotos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="fotos">
+    <header class="site-header">
+      <a class="brand" href="index.html">Lav&iacute;nia</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-modal" id="site-menu" hidden>
+        <div class="nav-backdrop" data-close-menu></div>
+        <nav class="nav" aria-label="Navega&ccedil;&atilde;o principal">
+          <button class="menu-close" type="button" aria-label="Fechar menu" data-close-menu>&times;</button>
+          <a href="index.html" data-page="home">Home</a>
+          <a href="fotos.html" data-page="fotos">Fotos</a>
+          <a href="cartas.html" data-page="cartas">Cartas</a>
+          <a href="admiro.html" data-page="admiro">Traços</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-section photos">
+        <div class="section-title">
+          <p>Fotos</p>
+          <h2>Fotos suas que mais gosto</h2>
+        </div>
+
+        <div class="photo-gallery" id="photo-gallery" aria-label="Galeria de fotos"></div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="photo-lightbox" hidden>
+      <div class="lightbox-backdrop" data-close-lightbox></div>
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+        <button class="lightbox-close" type="button" aria-label="Fechar foto" data-close-lightbox>&times;</button>
+        <img class="lightbox-image" id="lightbox-image" src="" alt="" />
+        <div class="lightbox-placeholder" id="lightbox-placeholder" hidden>Foto</div>
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lav&iacute;nia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html">Lav&iacute;nia</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-modal" id="site-menu" hidden>
+        <div class="nav-backdrop" data-close-menu></div>
+        <nav class="nav" aria-label="Navega&ccedil;&atilde;o principal">
+          <button class="menu-close" type="button" aria-label="Fechar menu" data-close-menu>&times;</button>
+          <a href="index.html" data-page="home">Home</a>
+          <a href="fotos.html" data-page="fotos">Fotos</a>
+          <a href="cartas.html" data-page="cartas">Cartas</a>
+          <a href="admiro.html" data-page="admiro">Traços</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section page-section home-hero">
+        <div class="float heart one">&hearts;</div>
+        <div class="float heart two">&hearts;</div>
+        <div class="float sparkle three">&#10022;</div>
+        <div class="float bubble four"></div>
+        <div class="float bubble five"></div>
+
+        <section class="counter-card" aria-label="Tempo desde que come&ccedil;amos a nos falar">
+          <p class="counter-label">Você me faz mais feliz há:</p>
+          <div class="counter-grid">
+            <div>
+              <strong id="days">0</strong>
+              <span>dias</span>
+            </div>
+            <div>
+              <strong id="hours">0</strong>
+              <span>horas</span>
+            </div>
+            <div>
+              <strong id="minutes">0</strong>
+              <span>minutos</span>
+            </div>
+            <div>
+              <strong id="seconds">0</strong>
+              <span>segundos</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="timeline-card" aria-labelledby="timeline-title">
+          <p class="eyebrow">momentos que eu gosto</p>
+          <h2 id="timeline-title">Timeline</h2>
+          <div class="timeline-list" id="timeline-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <div class="lightbox" id="timeline-lightbox" hidden>
+      <div class="lightbox-backdrop" data-close-timeline-lightbox></div>
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="timeline-lightbox-caption">
+        <button class="lightbox-close" type="button" aria-label="Fechar foto" data-close-timeline-lightbox>&times;</button>
+        <img class="lightbox-image" id="timeline-lightbox-image" src="" alt="" />
+        <p class="lightbox-caption" id="timeline-lightbox-caption"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
