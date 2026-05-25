@@ -103,6 +103,10 @@ const FOTOS = [
     imagem: "corpo.png",
     legenda: "não tenho nem talher",
   },
+  {
+    imagem: "deusa.png",
+    legenda: "se a biblia tivesse foto do céu",
+  },
 ];
 
 // Edite esta lista para trocar as cartas.
@@ -110,6 +114,10 @@ const CARTAS = [
   {
     titulo: "A primeira",
     mensagem: "Hoje eu fiquei aqui fazendo essa bobeira sem saber se amanhã vou acordar com uma foto sua sorrindo ou com um 'que brega, mateus', mas a verdade é que eu ficaria muito mais dias sem dormir pra ter a chance de um dia acordar vendo teu sorriso de perto lavínia, você é apaixonante garota, você é muito mais do que jamais sonhei. Tua beleza tá em cada mensagem boba que me manda durante o dia, tá em cada piadinha boba que faz pra me fazer rir (funcionam até demais), tá no jeito que mostra carinho genuíno, sem se esforçar. Você foi uma baita sorte lavínia, te conhecer foi um presente que nunca esperei merecer, você fica cada dia mais linda mesmo sem te ver. beijos e bom dia, idiota.",
+  },
+  {
+    titulo: "Tuas qualidades",
+    mensagem: "Cara, as coisas mais fáceis nas nossas noites foram enxergar todas as qualidades que você mostra sem saber Lavínia, você é uma vitrine de cuidado, humor, carinho e doçura atrás de um vidro intimidador de tão lindo. Foi atraente demais te ouvir falar do seu irmão e perceber o quão boa você consegue ser com uma criança; Foi apaixonante te ver rir comigo, dividir piadas e proferir insultos bobos que mostram o quão divertida você consegue tornar as minhas noites; Foi o que me prendeu, quando eu percebi que você tem muito carinho pra dar, nas suas mínimas ações, quando dividiu seu livro comigo, guardou minhas flores na sua mesa, me mandou fotos com o olho brilhando depois de a gente se elogiar por horas. Te viver é a coisa mais fácil e mais bonita que me ocorreu esse ano. Honestamente, preciso discordar da sua lista de defeitos que me mandou hoje, eu não consigo te achar egoísta, vc divide comigo o melhor presente que poderia me dar que é sua presença. Obrigado por estar aqui, te quero.",
   },
 ];
 
